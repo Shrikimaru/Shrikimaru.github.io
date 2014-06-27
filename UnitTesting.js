@@ -1,7 +1,7 @@
 "use strict";
 
 function assert(funcRes, expRes){
-	try{
+	try {
 		if (funcRes !== expRes)
 			throw(new Error());
 	}catch(e){
