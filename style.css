@@ -1,0 +1,25 @@
+#card_first, #card_second{
+	background-image: url("cards.png");
+    height: 244px;
+    width: 168px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#hand{
+	display: inline-block;
+	width: 50%;
+	height: 300px;
+	border: solid black 1px;
+	margin-left: 25%;
+}
+#answers{
+	display: block;
+	text-align: center;
+}
+#situation p{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
