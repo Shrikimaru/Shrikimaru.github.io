@@ -378,7 +378,7 @@ window.onload = function(){
 			for(var key in self.DOMObj.answerButtonList){
 				self.DOMObj.answerButtonList[key].onclick = function(e) {
 					self.answer = this.value;
-					alert(self.checkAnswer({"answer" : this.value}));
+					sweetAlert(self.checkAnswer({"answer" : this.value}));
 					self.refresh();
 				}
 			}
